@@ -18,7 +18,8 @@ curl -H "Authorization: e79b1c21-8013-407b-8e34-98d47af49eb2" http://localhost:8
 
 curl -H "Authorization: 6318f8ae-ff59-46a7-8e78-7599f91971f5" http://localhost:8080/employees/100005
 
-![Alt text](C:\Users\subha\Pictures\Postman.PNG,"Via Post Man")
+![image](https://user-images.githubusercontent.com/25679185/80645319-f1567c00-8a38-11ea-88e4-1415df90c5fc.png)
+
 
 
 
