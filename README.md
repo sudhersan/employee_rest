@@ -3,6 +3,7 @@
 ## Pre-requisites
 * Docker container for MySql has to be running
 * Application logs are by default written in C:\Users\Public\Documents.Please change to expected folder in Application.properties file.
+* Jar file can be found in target folder.
 
 -------------------------------------------------------
 
