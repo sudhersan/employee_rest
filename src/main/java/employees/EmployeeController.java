@@ -5,7 +5,6 @@ import java.util.*;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.*;
-import org.springframework.core.env.Environment;
 import org.springframework.http.*;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.*;
@@ -40,19 +39,6 @@ public class EmployeeController {
     private final String sql_select_emp = "select emp_no, birth_date, first_name, last_name, gender, hire_date FROM employees limit 10;";
     		
     
-    
-	@Autowired
-	Environment environment;
-
-	@Value("${spring.datasource.url}")
-	private static String url;
-	
-	@Value("${spring.datasource.username}")
-	private static String username;
-	
-	@Value("${spring.datasource.password}")
-	private static String password;
-
     
         
     @GetMapping("/employees")
